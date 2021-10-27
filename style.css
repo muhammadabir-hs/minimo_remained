@@ -1,0 +1,157 @@
+/*fonts*/
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/*common starts*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+
+}
+/*common ends*/
+
+/*header starts*/
+header {
+	padding: 40px 0;
+	/*border: 1px solid black;*/
+}
+.wrapper {
+	overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid red;*/
+}
+.logo {
+	width: 13%;
+	/*border: 1px solid red;*/
+	float: left;
+	
+}
+.logo a {}
+.logo a img {}
+.menu {
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul {
+	float: right;
+	margin: 0;
+}
+.menu ul li {
+	
+	float: left;
+	list-style: none;
+	
+}
+.menu ul li a {
+	margin: 0px 15px;
+	padding: 3px 2px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li: last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #626262;
+}
+/*header ends*/
+
+
+/*banner starts*/
+.banner {}
+.b_img {}
+.b_img img {
+	width: 100%;
+}
+
+/*banner ends*/
+
+
+/*perfect starts*/
+.perfect {
+	padding: 70px;
+}
+.wrapper2 {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid green;*/
+}
+.p_content {}
+.c_light {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c-h1 {
+	margin: 20px 0px 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text {
+	line-height: 25px;
+}
+.mb_45 {
+	margin-bottom: 45px;
+}
+/*perfect ends*/
+
+
+
+/*blog1 starts*/
+.blog1 {
+	padding: 70px 0 10px;
+}
+.blog_content {}
+.s_blog {
+	margin-bottom: 60px;
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.s_blog:nth-child(even) {
+	margin-left: 6%;
+}
+.blog_img {
+	margin-bottom: 25px;
+}
+.blog_img img {
+	width: 100%;
+}
+/*blog1 ends*/
+/*news starts*/
+.news {
+	background-color: #f0f0f0;
+	min-height: 400px;
+}
+.signup {
+
+}
+/*news ends*/
+
+
+/*footer starts*/
+/*.footer {
+	background-color: #f0f0f0;
+	min-height: 200px;
+}
+footer ends*/
+
+.load {
+
+}
+
